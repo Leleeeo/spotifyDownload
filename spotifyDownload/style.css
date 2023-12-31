@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+header {
+  width: 100vw;
+  height: 4.5rem;
+  background-color: black;
+}
+
+.header01 {
+  width: 100vw;
+  height: 5rem;
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header02 {
+  display: flex;
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.header03 {
+  justify-content: center;
+  display: flex;
+}
+
+.p01 {
+  color: white;
+}
+
+.p02 {
+  color: white;
+  font-size: 14px;
+  font-weight: 1px;
+}
+
+a {
+  color: white;
+}
+
+.img01:hover {
+  transform: scale(1.1);
+}
+
+.img02 {
+  border: 0px solid;
+  border-radius: 60px;
+  width: 41px;
+}
+
+.header03 {
+  display: flex;
+  gap: 10px;
+}
+
+.header04 {
+  display: flex;
+  font-size: 15px;
+  gap: 33px;
+  justify-content: center;
+  align-items: center;
+}
+
+.header05 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+}
+
+.main1 {
+  width: 100vw;
+  height: 70vh;
+  background-color: #19e68c;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 34px;
+}
+
+.img2 {
+  border: 0px solid;
+  border-radius: 5px;
+  width: 17rem;
+  height: 6rem;
+}
+
+.img2:hover {
+  transform: scale(1.1);
+}
+
+.p03 {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.h102 {
+  font-size: 42px;
+  font-weight: 900;
+}
+
+.a1 {
+  text-decoration: underline;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main2 {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 35vh;
+  gap: 20px;
+}
+
+.img03 {
+  width: 7rem;
+  height: 2rem;
+  border: 0px solid;
+  border-radius: 5px;
+}
+
+.h21 {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.applegooglemicrosoft {
+  display: flex;
+  gap: 18px;
+}
